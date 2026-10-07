@@ -7,8 +7,8 @@ def test_initialise_tire():
 
     assert tire.current_pressure == None
 
-    assert tire.current_tread_depth == None
+    assert tire.current_depth == None
 
     assert tire.historical_pressure == []
 
-    assert tire.historical_tread_depth == []
+    assert tire.historical_depth == []
